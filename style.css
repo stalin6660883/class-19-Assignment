@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.ful-div{
+    margin:20px 100px;
+    background:#ecf0f1;
+    text-align: center;
+
+}
+.manu-div{}
+.manu-div ul{
+    padding: 25px 0;
+}
+.manu-div ul li{
+    display: inline-block;
+    margin-left: 30px;
+}
+.manu-div ul li a{
+    text-decoration: none;
+    background: #3498db;
+    padding: 10px 15px;
+    color: #000;
+    font-size: 20px;
+}
+.header-div{
+    background: #3498db;
+    padding: 50px;
+}
+.header-div h4 {
+    color: #fff;
+    font-size: 25px;
+}
+.header-div h1{
+    color: #fff;
+    font-size: 40px;
+    word-spacing: 20px;
+}
+.header-div a{
+    font-size: 20px;
+    text-decoration: none;
+    background:#27ae60;
+    display: inline-block;
+    color: rgba(0,0,0,.2);
+    padding: 15px 20px;
+    border-radius: 15px;
+    margin-top: 30px;
+    position: relative;
+    z-index: 1;
+}
+.header-div a::before{
+    content: "\f0da";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 10px;
+    color: rgba(0,0,0,.2);
+    
+}
+.header-div a::after{
+    content: "";
+    height:0;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #ecf0f1;
+    border-radius: 15px;
+    z-index: -1;
+    transition: .4s;
+}
+.header-div a:hover::after{
+    height: 100%;
+}
+.footer{}
+.footer h2{
+    font-size: 35px;
+    margin-top:20px;
+}
+.footer .lorem{
+    color: blue;
+    margin-top: 10px;
+    line-height: 25px;
+}
+.transform .step1{
+    padding: 30px 50px;
+    background: #000;
+    display: inline-block;
+}
+.transform .step1{
+    transform: rotate();
+    margin-top: 90px;
+    margin-right: 415px;
+    transition: .4s;
+}
+.step01{
+    color: #fff;
+    display: inline-block;
+}
+.transform .step1:hover{
+    transform: rotate(-35deg);
+    background: red;
+}
+.transform .step2{
+    padding: 30px 50px;
+    background: #000;
+    display: inline-block;
+    transition: .4s;
+}
+.step02{
+    color: #fff;
+    display: inline-block;
+}
+.transform .step2{
+    transform: scale();
+    margin-left: -200px;
+}
+.transform .step2:hover{
+    transform: scale(1.2) rotate(360deg);
+    background: red;
+}
+.transform .step3{
+    padding: 30px 50px;
+    background: #000;
+    display: inline-block;
+    transition: .4s;
+}
+.transform .step3 .Step03{
+    color: #fff;
+    display: inline-block;
+}
+.transform .step3{
+    transform:rotate();
+    margin-left: 245px;
+}
+.transform .step3:hover{
+    transform:rotate(35deg) skew(360deg);
+    background: red;
+}
+.bottom{
+    background:#ecf0f1;
+    padding-bottom: 210px;
+}
+.bottom p{
+    color: #fff;
+    background:#222f3e;
+    padding: 10px 0;
+    margin-top: 15px;
+    word-spacing: 10px;
+}
